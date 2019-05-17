@@ -302,6 +302,10 @@ header a {
   font-size: 22px;
   border-radius: 15px;
   text-align: center;
+  transition: background-color 1s ease;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: #0c525d;
 }
 @media (max-width: 500px) {
   .home .content-pick {
@@ -313,5 +317,52 @@ header a {
   }
   .home .content-pick .btn {
     margin-bottom: 20px;
+  }
+}
+.home .content-form {
+  border-top: 2px dashed #C0C0C0;
+  padding-top: 30px;
+}
+.home .content-form input[name="firstname"],
+.home .content-form input[name="lastname"] {
+  width: 49.5%;
+}
+.home .content-form input[name="firstname"] {
+  margin-right: 1%;
+}
+.home .content-form input[name="email"],
+.home .content-form input[name="telephone"],
+.home .content-form textarea {
+  width: 100%;
+}
+.home .content-form input {
+  height: 30px;
+  margin: 5px 0;
+}
+.home .content-form textarea {
+  height: 100px;
+}
+.home .content-form input,
+.home .content-form textarea {
+  font-size: 15px;
+}
+.home .content-form .btn {
+  padding: 15px;
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  font-size: 22px;
+  border-radius: 15px;
+  text-align: center;
+  transition: background-color 1s ease;
+  border-radius: 5px;
+  margin: 10px 0 30px 0;
+}
+.home .content-form .btn:hover {
+  background-color: #0c525d;
+}
+@media (max-width: 500px) {
+  .home .content-form {
+    width: 95%;
+    margin: 0 auto;
   }
 }

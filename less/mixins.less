@@ -6,4 +6,8 @@
   font-size: @font-size;
   border-radius: @border-radius;
   text-align: center;
+  &:hover{
+    background-color: darken(@button-bg, 20%);
+  }
+  transition: background-color 1s ease;
 }

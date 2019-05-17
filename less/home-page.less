@@ -106,4 +106,36 @@
       }
     }
   }
+  .content-form{
+    border-top: 2px dashed @navigation-border;
+    padding-top: 30px;
+    input[name="firstname"], input[name="lastname"]{
+      width: 49.5%;
+    }
+    input[name="firstname"]{
+      margin-right: 1%;
+    }
+    input[name="email"], input[name="telephone"], textarea{
+      width: 100%;
+    }
+    input{
+      height: 30px;
+      margin: 5px 0;
+    }
+    textarea{
+      height: 100px;
+    }
+    input, textarea{
+      font-size: 15px;
+    }
+    .btn{
+        .custom-btn(22px, 15px);
+        border-radius: 5px;
+        margin: 10px 0 30px 0;
+      }
+    @media @mobile{
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
 }// home
