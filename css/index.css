@@ -246,3 +246,11 @@ header a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  padding: 15px;
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  font-size: 22px;
+  border-radius: 15px;
+  text-align: center;
+}
